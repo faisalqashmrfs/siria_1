@@ -1,0 +1,154 @@
+footer {
+    background-color: #283760;
+    position: relative;
+    color: white;
+    padding-bottom: 3.75rem;
+    padding-top: 5.75rem;
+}
+
+.emailBraa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FFF;
+    color: #212121;
+    padding: 1.25rem 1.875rem;
+    border-radius: 1.875rem;
+    background: var(--white, #FFF);
+    box-shadow: 0px -5px 20px 0px rgba(0, 0, 0, 0.10);
+    gap: 2.5rem;
+    width: 75%;
+    position: absolute;
+    top: -7%;
+    left: 15%;
+    z-index: 100;
+    margin-bottom: 10.75rem;
+}
+.emailBraa2 {
+    display: flex;
+    border-radius: 0.9375rem;
+    background: #EDEDED;
+    border: none;
+    width: 20rem;
+    height: 5rem;
+    gap: 0.6;
+
+}
+
+.emailBraa2 button {
+    border-radius: 0.75rem;
+    background: #9BC352;
+    color: #212121;
+    display: flex;
+    padding: 1.3125rem 1.125rem;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    max-width: 100%;
+}
+.emailBraa1 .ff{
+    display: flex;
+    justify-content: space-around;
+}
+.emailBraa1 .ff p{
+    color:  #212121;
+text-align: center;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.5rem; /* 285.714% */
+}
+.emailBraa2 input {
+    border-radius: 0.9375rem;
+    background: #EDEDED;
+   padding-left: 1.25rem;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    width: 35rem;
+    max-width: 100%;
+}
+
+@media(max-width:900px){
+    .emailBraa{
+        margin-bottom: 5rem;
+    }
+}
+.emailBraa3 img{
+margin-left: 1.25rem;
+}
+.MainFooterBraa {
+    display: flex;
+    justify-content: space-around;
+    gap: 4.38rem;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+    flex-wrap: wrap;
+}
+
+.MainFooterBraa .logofooter {
+    width: 35rem;
+    font-size: 1.5rem;
+}
+.MainFooterBraa .logofooter img {
+    margin-bottom: 2.5rem;
+    max-width: 100%;
+}
+
+.MainFooterBraa .linksfooter h3 {
+    margin-bottom: 1.6rem;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+   
+}
+
+.MainFooterBraa .linksfooter p {
+    margin-bottom: 1.6rem;
+    font-size: 1.65rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.MainFooterBraa .linksfooter h2 {
+    color: #FFF;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    
+}
+
+.contact-footer {
+    display: flex;
+    display: flex;
+    width: 14.9375rem;
+    padding: 0.25rem 2.3125rem 0.25rem 0rem;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.contact-footer p {
+    font-size: 1.25rem;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+hr {
+    margin-left: 5%;
+    margin-right: 5%;
+}

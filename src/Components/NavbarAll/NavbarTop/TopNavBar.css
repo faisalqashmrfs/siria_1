@@ -1,0 +1,44 @@
+.rn-top-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(21, 61, 31);
+    background-color: rgb(40, 55, 96);
+    color: #fff;
+    /* background-color: rgb(32, 32, 33); */
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.rn-top-nav p {
+    margin: 0 !important;
+}
+
+.rn-top-nav .rn-commun {
+    display: flex;
+}
+
+.rn-top-nav .rn-commun .rn-icons-social,
+.rn-top-nav .rn-commun .rn-emails {
+    display: flex;
+    align-items: center;
+}
+
+.rn-top-nav .rn-commun .rn-icons-social .rn-icon,
+.rn-top-nav .rn-commun .rn-emails .rn-icon {
+    margin: auto 0.55rem;
+    font-size: 1.4rem;
+}
+
+.rn-top-nav select {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+
+@media screen and (max-width:992px) {
+    .p-nav {
+        display: none;
+    }
+}

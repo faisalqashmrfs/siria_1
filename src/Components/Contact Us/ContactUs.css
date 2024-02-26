@@ -1,0 +1,369 @@
+.Contact-section{
+    position: relative;
+}
+/* .flower{
+    position: absolute;
+    transform: rotate(6.06deg);
+    width: 736.97px;
+    bottom: 0;
+    top: 1223px;
+} */
+
+.ne-contact-hero {
+    position: relative;
+    background-image: url('./assest/images/HeroContact.png');
+    width: 100%;
+    height:368px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.ne-contact-content{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ne-contact-content h1{
+    color: white;
+    font-weight: bold;
+    font-size: 75px;
+}
+.ne-contact-content p{
+    color: white;
+    font-size: 25px;
+    width: 849px;
+    text-align: center;
+    line-height: 44.5px;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(123, 124, 124, 0.5); */
+    background:rgba(89, 89, 89, 0.6);
+}
+
+.box_social{
+    margin-top: 150px;
+    /* width:1005px ; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.box_social_one{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+.box_social_two{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.logo-phone{
+    width: 257.61px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo-phone img{
+    width: 35px;
+}
+.logo-phone p{
+    line-height: 24px;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.phone-number{
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+.contact-form .form-title{
+    font-size: 32px;
+    line-height: 34px;
+}
+
+.contact-form .form{
+    position: relative;
+    margin:  0 auto;
+    width: 814px;
+    border-radius: 30px;
+    height: 497px;
+    border: 5px solid rgba(155, 195, 82, 1);
+}
+
+.form form{
+    margin-top: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.form form input{
+    background-color: #EDEDED;
+    border: none;
+    border-radius: 15px;
+    padding: 21px 24px;
+    width: 660px;
+    height: 67px;
+    
+}
+
+
+
+.form form textarea{
+    background-color: #EDEDED;
+    border: none;
+    border-radius: 15px;
+    width: 660px;
+    height: 169px;
+    padding: 21px 24px;
+}
+.submit-btn{
+    width: 660px;
+    height: 101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 ;
+    position: absolute;
+    background-color: white;
+    bottom: -20%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+.submit-btn button{
+    width: 226px;
+    padding: 10px 18px;
+    background-color: #9BC352;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.min-screen-text{
+    display: none;
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Kaisei+Tokumin:wght@400;500;700&family=Mulish:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+@media (max-width:1066px){
+  .big-line {
+    display: none;
+}
+
+}
+
+
+
+
+
+
+@media (max-width:946px){
+  .contact-form .form{
+      width: 500px !important;
+  }
+
+  .form form input{
+      width: 360px !important;
+      height: 67px;
+      
+  }
+
+  @media (max-width:660px){
+    .organic-book-image,.certeficate-book{
+      width: 350px !important;
+    }
+    .certeficate-text{
+      font-size: 15px !important;
+      line-height: 40px;
+      width: 325px !important;
+  }
+  .iso-text-content, .iso-text-two-content {
+    font-size: 15px !important;
+    font-weight: 300;
+    line-height: 40px;
+  
+  }
+
+  .ne-contact-content h1{
+    font-size: 25px !important;
+    width: fit-content !important;
+  }
+  .ne-contact-content p {
+    font-size: 18px !important;
+    width: 236px !important;
+    
+    
+    
+  }
+  .hero-text-h2{
+    text-align: center;
+  }
+  }
+  
+  
+  
+  .form form textarea{    
+      width: 360px !important;
+  }
+  .submit-btn{
+      width: 360px !important;
+      height: 101;
+  }
+
+  .submit-btn button{
+      width: 150px !important;
+      font-size: 13px !important;
+
+  }
+}
+
+@media (max-width:644px){
+  .line img{
+    display: none !important;
+  }
+}
+
+@media (max-width:524px){
+  .box-one-text,.box-two-text{
+    margin-top: 0 !important;
+    font-size: 10px !important;
+    line-height: 15px !important;
+    width: fit-content !important;
+    text-align: end;
+    /* font-weight: 300; */
+}
+.box-one-title,.box-two-title{
+  color: rgba(78, 175, 218, 1);
+  font-weight: bold;
+  font-size: 14px !important;
+  text-align: end;
+}
+
+
+
+
+
+.contact-form .form{
+  width: 350px !important;
+}
+
+.form form input{
+  width: 200px !important;
+  height: 67px;
+  
+}
+
+.box_social_one{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0 !important;
+}
+.box_social_two{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+  justify-content: center;
+  gap: 0 !important;
+}
+.box_social_two .logo-phone , .box_social_one .logo-phone{
+  margin-top: 50px;
+}
+
+
+
+.form form textarea{    
+  width: 160px !important;
+}
+.submit-btn{
+  width: 150px !important;
+  height: 101;
+}
+
+.submit-btn button{
+  width: 150px !important;
+  font-size: 13px !important;
+
+}
+
+}
+
+@media (max-width:400px){
+  .line{
+    margin-top: 20px;
+    width: 350px;
+    height: 5px;
+    background-color: #9BC352;
+  }
+  .box_social_one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+.ne-contact-content p{
+  display: none;
+}
+.min-screen-text{
+  display: flex !important;
+  flex-direction: column;
+
+}
+.min-screen-text h6{
+  text-align: center !important;
+  font-size: 16px !important;
+}
+.min-screen-text h5{
+  font-size: 16px !important;
+}
+}
