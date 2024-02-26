@@ -55,7 +55,8 @@ const Footer = () => {
         <div className='contact-footer'>
         <img src={img2} alt="" />
         <p>info@siriaherbs.com</p>
-        </div>
+    
+       </div>
     </div>
 </div>
 <hr />
