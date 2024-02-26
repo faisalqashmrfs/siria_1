@@ -65,7 +65,6 @@ const About = () => {
               reltedImage1:im2,
               reltedImage2:im2,
               reltedImage3:im2,
-              reltedImage3:im2,
               reltedImage4:im2,
               reltedImage5:im2,
               reltedImage6:im2,
@@ -112,7 +111,6 @@ const About = () => {
               reltedImage1:Ogaro1,
               reltedImage2:Ogaro1,
               reltedImage3:Ogaro1,
-              reltedImage3:Ogaro1,
               reltedImage4:Ogaro1,
               reltedImage5:Ogaro1,
               reltedImage6:Ogaro1,
@@ -158,7 +156,6 @@ const About = () => {
             reltedImages:{
               reltedImage1:Malika1,
               reltedImage2:Malika1,
-              reltedImage3:Malika1,
               reltedImage3:Malika1,
               reltedImage4:Malika1,
               reltedImage5:Malika1,
@@ -207,7 +204,6 @@ const About = () => {
             reltedImages:{
               reltedImage1:Avie1,
               reltedImage2:Avie1,
-              reltedImage3:Avie1,
               reltedImage3:Avie1,
               reltedImage4:Avie1,
               reltedImage5:Avie1,

@@ -16,15 +16,11 @@ import backMalica from './assest/images/backMalica.png';
 import iconMalica from './assest/images/iconMalica.svg';
 import Malika1 from './assest/images/Malika1.svg';
 import backProMalika from './assest/images/backProMalik.svg';
-import Malika2 from './assest/images/Malika2.svg';
 import backAvie from './assest/images/backAvie.svg';
 import blurAvie from './assest/images/blurAvie.png';
 import Avie1 from './assest/images/Avie11.svg';
-import Avie2 from './assest/images/Avie22.svg';
 import backProAvie from './assest/images/backProAvie.svg';
 import iconAvie from './assest/images/iconAvie.svg';
-import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
-import ProductDetailsPage from './ProductDetailsPage';
 import NavbarDown from '../NavbarAll/NavbarDown/NavbarDown';
 
 
@@ -68,7 +64,6 @@ const Products = () => {
             reltedImages:{
               reltedImage1:im2,
               reltedImage2:im2,
-              reltedImage3:im2,
               reltedImage3:im2,
               reltedImage4:im2,
               reltedImage5:im2,
@@ -115,7 +110,6 @@ const Products = () => {
               reltedImage1:Ogaro1,
               reltedImage2:Ogaro1,
               reltedImage3:Ogaro1,
-              reltedImage3:Ogaro1,
               reltedImage4:Ogaro1,
               reltedImage5:Ogaro1,
               reltedImage6:Ogaro1,
@@ -160,7 +154,6 @@ const Products = () => {
             reltedImages:{
               reltedImage1:Malika1,
               reltedImage2:Malika1,
-              reltedImage3:Malika1,
               reltedImage3:Malika1,
               reltedImage4:Malika1,
               reltedImage5:Malika1,
