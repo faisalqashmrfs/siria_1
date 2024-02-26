@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
 import { useLocation,Link} from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faHeart ,faLink} from '@fortawesome/free-solid-svg-icons';
-import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLink} from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 const ProductDetailsPage = () => {
   const location= useLocation();
   const [detailes,setDetailes]= useState({});
@@ -54,15 +53,7 @@ const ProductDetailsPage = () => {
     };
     useEffect(()=>{
       setDetailes(location.state.item)
-      
     },[])
-    console.log(selectedContent)
-    {/*let { productId } = useParams();
-    const product = products.find((p) => p.id === productId);
-  
-    if (!product) {
-      return <div className="not-found">Product not found</div>;
-    }*/}
   
   return (
     <div>

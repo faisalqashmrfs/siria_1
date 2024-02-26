@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import './Product.css';
 import ProductOne from './ProductOne';
@@ -23,17 +22,7 @@ const BrandsDisplay = ({ brandInfo }) => {
     return String(_id).toLowerCase().split(" ").join("");
   }
   const rootId = idstring(_id);
-  console.log(rootId)
-  const handleToDetailes = () => {
-    navigate( `/ProductDetailsPage/${rootId} `, {
-      state: {
-        item: brandInfo.products.name,
-        previousProduct: _id // تمرير الـ product السابقة ضمن previousProduct
-      }
-    });
-  }
-  
- console.log(rootId)
+
   const showProducts = (category) => {
     setSelectedCategory(category);
     const filteredProducts = brandInfo.products.filter((product) => product.category === category);
@@ -53,9 +42,9 @@ const BrandsDisplay = ({ brandInfo }) => {
       {brandInfo && (
         <div>
           <div className="background-container">
-            <img src={brandInfo.background} className="background-image" />
+            <img src={brandInfo.background} className="background-image"  alt="صورة" />
             <div className="blur-container">
-              <img src={brandInfo.blur} className="blur-image" />
+              <img src={brandInfo.blur} className="blur-image"  alt="صورة" />
               <div className="content-container">
                 <div className="content-icon">
                   <img src={brandInfo.icon} alt="صورة" />

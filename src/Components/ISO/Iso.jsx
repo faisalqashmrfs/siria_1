@@ -22,11 +22,9 @@ import backMalica from '../Products/assest/images/backMalica.png';
 import iconMalica from '../Products/assest/images/iconMalica.svg';
 import Malika1 from '../Products/assest/images/Malika1.svg';
 import backProMalika from '../Products/assest/images/backProMalik.svg';
-import Malika2 from '../Products/assest/images/Malika2.svg';
 import backAvie from '../Products/assest/images/backAvie.svg';
 import blurAvie from '../Products/assest/images/blurAvie.png';
 import Avie1 from '../Products/assest/images/Avie11.svg';
-import Avie2 from '../Products/assest/images/Avie22.svg';
 import backProAvie from '../Products/assest/images/backProAvie.svg';
 import iconAvie from '../Products/assest/images/iconAvie.svg';
 function Iso() {
@@ -69,7 +67,6 @@ function Iso() {
               reltedImages:{
                 reltedImage1:im2,
                 reltedImage2:im2,
-                reltedImage3:im2,
                 reltedImage3:im2,
                 reltedImage4:im2,
                 reltedImage5:im2,
@@ -116,7 +113,6 @@ function Iso() {
                 reltedImage1:Ogaro1,
                 reltedImage2:Ogaro1,
                 reltedImage3:Ogaro1,
-                reltedImage3:Ogaro1,
                 reltedImage4:Ogaro1,
                 reltedImage5:Ogaro1,
                 reltedImage6:Ogaro1,
@@ -161,7 +157,6 @@ function Iso() {
               reltedImages:{
                 reltedImage1:Malika1,
                 reltedImage2:Malika1,
-                reltedImage3:Malika1,
                 reltedImage3:Malika1,
                 reltedImage4:Malika1,
                 reltedImage5:Malika1,
@@ -210,7 +205,6 @@ function Iso() {
               reltedImages:{
                 reltedImage1:Avie1,
                 reltedImage2:Avie1,
-                reltedImage3:Avie1,
                 reltedImage3:Avie1,
                 reltedImage4:Avie1,
                 reltedImage5:Avie1,

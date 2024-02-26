@@ -15,9 +15,6 @@ const NavbarDown = ({handleBrandClick}) => {
   const [toggleIcon, setToggleIcon] = useState("toggler-icon");
   const [collapse, setCollapse] = useState("nav-items");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
 
   const closeDropdown = () => {
     setIsDropdownOpen(false);

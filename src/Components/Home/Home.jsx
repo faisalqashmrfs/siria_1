@@ -29,9 +29,10 @@ import backMalica from '../Products/assest/images/backMalica.png';
 import iconMalica from '../Products/assest/images/iconMalica.svg';
 import Malika1 from '../Products/assest/images/Malika1.svg';
 import backProMalika from '../Products/assest/images/backProMalik.svg';
+import backAvie from '../Products/assest/images/backAvie.svg';
 import blurAvie from '../Products/assest/images/blurAvie.png';
 import Avie1 from '../Products/assest/images/Avie11.svg';
-import Avie2 from '../Products/assest/images/Avie22.svg';
+import backProAvie from '../Products/assest/images/backProAvie.svg';
 import iconAvie from '../Products/assest/images/iconAvie.svg';
 
 import { Container } from 'react-bootstrap'
